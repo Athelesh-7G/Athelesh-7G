@@ -25,13 +25,13 @@
 
 ## 👋 About
 
-Final-year **Electrical & Electronics Engineering** student at **PSG iTech, Coimbatore** — building software systems that solve real problems and hold up in production.
+Final-year **Electrical & Electronics Engineering** student at **PSG iTech, Coimbatore** — building production-ready software systems that solve real problems.
 
-I work across the stack: **distributed, event-driven architectures** on AWS, **deep learning pipelines** for computer vision, **data science and ML modeling**, **multi-agent AI platforms**, and **full-stack applications** that people actually use. I write **C++** for algorithms and data structures, and ground every build in **operating systems, databases, and system design fundamentals**.
+I work across the stack: **distributed, event-driven architectures** on AWS, **Large Language Models** and **multi-agent AI platforms**, **deep learning pipelines** for computer vision, **data science and ML modeling**, and **full-stack applications** that people actually use. I write **C++** for algorithms and data structures, and ground every build in **operating systems, databases, and system design fundamentals**.
 
 One principle holds across all of it: **systems should behave predictably under real conditions.** Deterministic logic where correctness matters. Measured latency. Traceable decisions. Tests that prove the thing works.
 
-I care about the engineering, and I care about shipping.
+I care about building software that works reliably, scales predictably, and solves real problems.
 
 ---
 
