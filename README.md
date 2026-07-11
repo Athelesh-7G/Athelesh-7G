@@ -25,19 +25,19 @@
 
 ## 👋 About
 
-Final-year **Electrical & Electronics Engineering** student at **PSG iTech, Coimbatore**, focused on **software engineering** — backend systems, distributed architectures, and applied AI.
+Final-year **Electrical & Electronics Engineering** student at **PSG iTech, Coimbatore** — building software systems that solve real problems and hold up in production.
 
-I build production software end to end. That means designing **event-driven, fault-isolated systems** on AWS, writing **C++** for algorithms and data structures, shipping **full-stack TypeScript** applications, and engineering **deep learning pipelines** that hit real accuracy numbers on real data — not notebook demos.
+I work across the stack: **distributed, event-driven architectures** on AWS, **deep learning pipelines** for computer vision, **data science and ML modeling**, **multi-agent AI platforms**, and **full-stack applications** that people actually use. I write **C++** for algorithms and data structures, and ground every build in **operating systems, databases, and system design fundamentals**.
 
-My work spans **multi-agent AI platforms**, **deep learning for computer vision**, **data science and ML modeling**, and **multi-model orchestration systems**. Across all of it, one principle holds: **systems must behave predictably under real conditions.** Deterministic logic where correctness matters. Measured latency over hand-waving. Tests that actually catch things.
+One principle holds across all of it: **systems should behave predictably under real conditions.** Deterministic logic where correctness matters. Measured latency. Traceable decisions. Tests that prove the thing works.
 
-**Currently strengthening:** DSA in C++ · Operating Systems · DBMS · Computer Networks · System Design
+I care about the engineering, and I care about shipping.
 
 ---
 
 ## 🏆 International Recognition
 
-🥇 **AWS 10,000 AIdeas — APJC Regional Champion 2026**
+🥇 **AWS 10,000 AIdeas — Asia Pacific & Japan (APJC) Regional Champion 2026**
 International winner among **10,000+ teams across 115 countries** for building **Veloquity**. Awarded **$15,000 prize support** and **$1,500 AWS credits**; invited to showcase at **AWS re:Invent, Las Vegas** 🇺🇸
 
 📰 **Featured in Business Today** — joint media interaction with **Jeff Barr** *(VP & Chief Evangelist, AWS)*, conducted by Neetu Chandra *(Senior Editor, Business Today)*
@@ -151,23 +151,33 @@ International winner among **10,000+ teams across 115 countries** for building *
 
 <div align="center">
 
-**Languages & Core**
+**Languages**
 
 <img src="https://skillicons.dev/icons?i=cpp,c,python,ts,js&theme=dark" height="55" alt="Languages"/>
+
+`C++` · `C` · `Python` · `TypeScript` · `JavaScript`
+
+<br/>
 
 **Cloud & Backend**
 
 <img src="https://skillicons.dev/icons?i=aws,postgres,nodejs,nextjs,react,vercel&theme=dark" height="55" alt="Cloud and Backend"/>
 
+`AWS` · `PostgreSQL` · `Node.js` · `Next.js` · `React` · `Vercel`
+
+<br/>
+
 **AI / ML & Tools**
 
 <img src="https://skillicons.dev/icons?i=pytorch,sklearn,tensorflow,git,github,vscode&theme=dark" height="55" alt="AI ML and Tools"/>
+
+`PyTorch` · `scikit-learn` · `TensorFlow` · `Git` · `GitHub` · `VS Code`
 
 </div>
 
 <br/>
 
-**Core CS** — Data Structures & Algorithms · Operating Systems · DBMS · Object-Oriented Programming · Computer Networks · System Design
+**Core CS** — Operating Systems · Database Management Systems · Object-Oriented Programming
 
 **Cloud (AWS)** — Lambda · Bedrock · S3 · RDS · Aurora Serverless · EventBridge · IAM · Serverless & Event-Driven Architecture
 
@@ -194,7 +204,7 @@ Engineered a deep learning computer vision system for human face verification �
 
 <div align="center">
 
-### Open to Software Engineering roles — backend, distributed systems, and applied AI.
+### Open to Software Engineering Roles
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2C5364,50:203A43,100:0F2027&height=100&section=footer" width="100%"/>
 
