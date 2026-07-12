@@ -69,7 +69,7 @@ International winner among **10,000+ teams across 115 countries** for building *
 ### ⚡ [Magnivonic](https://github.com/Athelesh-7G/magnivonic)
 `H0: Hack the Zero Stack — AWS × Vercel`
 
-**Problem** — Finance sees revenue. Ops sees delivery. Security sees risk. Nobody sees the whole board until it's too late.
+**Problem** — Finance sees revenue. Ops sees delivery. Security sees risk. Nobody sees the whole board until it's too late for the enterprises.
 
 **Built** — Revenue, Customer, Operations, and Security agents process live signals in parallel → Chief of Staff coordinator → General Manager orchestrator, delivering a unified organizational intelligence picture in real time. All scoring **deterministic in code** — the LLM narrates, never invents.
 
