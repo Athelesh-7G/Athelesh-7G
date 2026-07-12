@@ -71,7 +71,7 @@ International winner among **10,000+ teams across 115 countries** for building *
 
 **Problem** — Finance sees revenue. Ops sees delivery. Security sees risk. Nobody sees the whole board until it's too late.
 
-**Built** — Two-tier, 6-agent architecture. Four domain agents run **in parallel** (`ThreadPoolExecutor`) → Chief of Staff coordinator → General Manager orchestrator.
+**Built** — Two-tier, 6-agent architecture. Four parallel domain agents — **Revenue, Customer, Operations, Security** — via `ThreadPoolExecutor` → Chief of Staff coordinator → General Manager orchestrator.
 
 **Design principle** — All scoring is **deterministic in code**. The LLM narrates. It never invents a number.
 
@@ -84,7 +84,7 @@ International winner among **10,000+ teams across 115 countries** for building *
 <tr>
 <td width="50%" valign="top">
 
-### 👁️ [Deep Learning Computer Vision System for Human Face Verification](https://github.com/Athelesh-7G)
+### 👁️ [DL-based Computer Vision Model for Human Face Authentication](https://github.com/Athelesh-7G)
 `Deep Learning · Computer Vision`
 
 **Problem** — Face authentication is only as strong as its weakest link: a printed photo or a replayed video should never pass as a live human.
