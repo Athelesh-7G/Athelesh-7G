@@ -71,7 +71,7 @@ International winner among **10,000+ teams across 115 countries** for building *
 
 **Problem** — Finance sees revenue. Ops sees delivery. Security sees risk. Nobody sees the whole board until it's too late.
 
-**Built** — Synthesizes fragmented organizational intelligence into a unified real-time picture. Four parallel domain agents — **Revenue, Customer, Operations, Security** — via `ThreadPoolExecutor` → Chief of Staff coordinator → General Manager orchestrator. All scoring **deterministic in code**. The LLM narrates. It never invents a number.
+**Built** — Revenue, Customer, Operations, and Security agents process live signals in parallel via `ThreadPoolExecutor` → Chief of Staff coordinator → General Manager orchestrator, delivering a unified organizational intelligence picture in real time. All scoring **deterministic in code** — the LLM narrates, never invents.
 
 **Proof** — 22-incident organizational memory · Real **GitHub API** + **Slack** signals · **Amazon Polly** voice output · Deployed Next.js frontend on Vercel.
 
