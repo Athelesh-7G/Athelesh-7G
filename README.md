@@ -84,20 +84,6 @@ International winner among **10,000+ teams across 115 countries** for building *
 <tr>
 <td width="50%" valign="top">
 
-### 👁️ [DL-based Computer Vision Model for Human Face Authentication](https://github.com/Athelesh-7G)
-`Deep Learning · Computer Vision`
-
-**Problem** — Face authentication is only as strong as its weakest link: a printed photo or a replayed video should never pass as a live human.
-
-**Built** — Multi-stage DL pipeline. **YOLOv8** fine-tuned on **12.5K face images** at 640×640 for real-time detection → **PAD (Presentation Attack Detection)** fine-tuned on **16.5K images** for liveness and anti-spoofing → **FaceNet** recognition using pretrained VGGFace2 embeddings (3.3M images, 9,131 identities) → SQLite verification logging.
-
-**Proof** — **18.23 hours** of fine-tuning across 50 epochs on an RTX 4050 · **~29K images** total · **86% accuracy** under live camera conditions · **40% latency reduction** via ONNX export. **Zero cloud dependency, zero external APIs.**
-
-`YOLOv8` `FaceNet` `MobileNet V2` `ONNX` `PyTorch` `SQLite`
-
-</td>
-<td width="50%" valign="top">
-
 ### 📊 [LLMs Assemble](https://github.com/Athelesh-7G/llms-assemble)
 `Data Science · ML Modeling`
 
@@ -112,8 +98,6 @@ International winner among **10,000+ teams across 115 countries** for building *
 🌐 [Live Demo](https://llms-assemble.vercel.app)
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 ### 🎛️ [OptiMelon](https://github.com/Athelesh-7G/optimelon)
@@ -126,6 +110,22 @@ International winner among **10,000+ teams across 115 countries** for building *
 **Instrumented** — Real-time telemetry dashboard tracking per-model latency, token throughput, and routing distribution.
 
 `Next.js` `Node.js` `TypeScript` `Multi-provider APIs`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 👁️ [DL-based Computer Vision Model for Human Face Authentication](https://github.com/Athelesh-7G)
+`Deep Learning · Computer Vision`
+
+**Problem** — Face authentication is only as strong as its weakest link: a printed photo or a replayed video should never pass as a live human.
+
+**Built** — Multi-stage DL pipeline. **YOLOv8** fine-tuned on **12.5K face images** at 640×640 for real-time detection → **PAD (Presentation Attack Detection)** fine-tuned on **16.5K images** for liveness and anti-spoofing → **FaceNet** recognition using pretrained VGGFace2 embeddings (3.3M images, 9,131 identities) → SQLite verification logging.
+
+**Proof** — **18.23 hours** of fine-tuning across 50 epochs on an RTX 4050 · **~29K images** total · **86% accuracy** under live camera conditions · **40% latency reduction** via ONNX export. **Zero cloud dependency, zero external APIs.**
+
+`YOLOv8` `FaceNet` `MobileNet V2` `ONNX` `PyTorch` `SQLite`
 
 </td>
 <td width="50%" valign="top">
