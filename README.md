@@ -71,9 +71,9 @@ International winner among **10,000+ teams across 115 countries** for building *
 
 **Problem** — Finance sees revenue. Ops sees delivery. Security sees risk. Nobody sees the whole board until it's too late.
 
-**Built** — Magnivonic synthesizes fragmented organizational intelligence into a unified, real-time picture for leadership. Four parallel domain agents — **Revenue, Customer, Operations, Security** — process live business signals simultaneously via `ThreadPoolExecutor`, each contributing structured evidence to a Chief of Staff coordinator that assembles the complete cross-domain view, then hands off to a General Manager orchestrator for final decision synthesis.
+**Built** — Synthesizes fragmented organizational intelligence into a unified real-time picture. Four parallel domain agents — **Revenue, Customer, Operations, Security** — via `ThreadPoolExecutor` → Chief of Staff coordinator → General Manager orchestrator. All scoring **deterministic in code**. The LLM narrates. It never invents a number.
 
-**Delivered** — Aurora PostgreSQL Serverless v2 + pgvector with **22-incident organizational memory** · Real **GitHub API** and **Slack** signal integration · **Amazon Polly** voice output · Deployed Next.js frontend on Vercel. All scoring **deterministic in code** — the LLM narrates context, never invents a number.
+**Proof** — 22-incident organizational memory · Real **GitHub API** + **Slack** signals · **Amazon Polly** voice output · Deployed Next.js frontend on Vercel.
 
 `Aurora Serverless v2` `pgvector` `Polly` `GitHub API` `Slack` `Next.js`
 
