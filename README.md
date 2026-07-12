@@ -50,7 +50,7 @@ International winner among **10,000+ teams across 115 countries** for building *
 <tr>
 <td width="50%" valign="top">
 
-### 🧠 [Veloquity](https://github.com/Athelesh-7G/veloquity)
+### 🧠 [Veloquity](https://github.com/Athelesh-7G/Veloquity-showcase)
 `AWS APJC Regional Champion`
 
 **Problem** — Enterprise product teams drown in fragmented feedback. There's no traceable path from raw signal to a decision you can defend.
@@ -84,7 +84,7 @@ International winner among **10,000+ teams across 115 countries** for building *
 <tr>
 <td width="50%" valign="top">
 
-### 👁️ [Human Face Verification System](https://github.com/Athelesh-7G)
+### 👁️ [Deep Learning Computer Vision System for Human Face Verification](https://github.com/Athelesh-7G)
 `Deep Learning · Computer Vision`
 
 **Problem** — Face authentication is only as strong as its weakest link: a printed photo or a replayed video should never pass as a live human.
