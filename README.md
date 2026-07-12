@@ -53,9 +53,9 @@ International winner among **10,000+ teams across 115 countries** for building *
 ### 🧠 [Veloquity](https://github.com/Athelesh-7G/Veloquity-showcase)
 `AWS APJC Regional Champion`
 
-**Problem** — Enterprise product teams drown in fragmented feedback. There's no traceable path from raw signal to a decision you can defend.
+**Problem** — Enterprise product teams are buried in massive, fragmented feedback across reviews, tickets, and surveys — with no traceable path from raw signal to an explainable, evidence-backed decision.
 
-**Built** — Event-driven multi-agent system on AWS. Four-stage serverless pipeline: ingestion → evidence extraction → semantic retrieval → governance, with fault isolation at every boundary.
+**Built** — Event-driven multi-agent system on AWS. Four specialized agents in sequence: **Ingestion Agent** → **Evidence Intelligence Agent** → **Reasoning Agent** → **Governance Agent**, with fault isolation at every boundary.
 
 **Proof** — 857 real records · ~$0.03/run · ~91s latency · **158 automated tests (100% passing)** · full source-to-decision traceability.
 
@@ -71,7 +71,7 @@ International winner among **10,000+ teams across 115 countries** for building *
 
 **Problem** — Finance sees revenue. Ops sees delivery. Security sees risk. Nobody sees the whole board until it's too late.
 
-**Built** — Revenue, Customer, Operations, and Security agents process live signals in parallel via `ThreadPoolExecutor` → Chief of Staff coordinator → General Manager orchestrator, delivering a unified organizational intelligence picture in real time. All scoring **deterministic in code** — the LLM narrates, never invents.
+**Built** — Revenue, Customer, Operations, and Security agents process live signals in parallel → Chief of Staff coordinator → General Manager orchestrator, delivering a unified organizational intelligence picture in real time. All scoring **deterministic in code** — the LLM narrates, never invents.
 
 **Proof** — 22-incident organizational memory · Real **GitHub API** + **Slack** signals · **Amazon Polly** voice output · Deployed Next.js frontend on Vercel.
 
