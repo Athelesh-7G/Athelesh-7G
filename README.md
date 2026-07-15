@@ -175,9 +175,9 @@ International winner among **10,000+ teams across 115 countries** for building *
 
 **AI / ML & Tools**
 
-<img src="https://skillicons.dev/icons?i=pytorch,sklearn,tensorflow,git,github,vscode&theme=dark" height="55" alt="AI ML and Tools"/>
+<img src="https://skillicons.dev/icons?i=pytorch,sklearn,git,github,vscode&theme=dark" height="55" alt="AI ML and Tools"/>
 
-`PyTorch` · `scikit-learn` · `TensorFlow` · `Git` · `GitHub` · `VS Code`
+`PyTorch` · `scikit-learn` · `Git` · `GitHub` · `VS Code`
 
 </div>
 
@@ -197,7 +197,9 @@ International winner among **10,000+ teams across 115 countries** for building *
 
 Engineered a deep learning computer vision system for human face verification — YOLOv8 detection, FaceNet recognition, and MobileNet V2 liveness verification via Presentation Attack Detection. Achieved **86% accuracy** on a live multi-user dataset and cut inference latency **40%** through ONNX export and batch optimization. Deployed as a real-time pipeline with zero cloud dependency.
 
---- ## 🎖️ Achievements
+---
+
+## 🎖️ Achievements
 
 - 🌟 **Young Innovator 2026** — Awarded by PSG iTech at the Annual Day Ceremony for outstanding achievement across innovation competitions, hackathons, and technical excellence
 - 🥇 **First Place** — Department Project Expo **2025 & 2026** (EEE)
