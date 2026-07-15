@@ -100,24 +100,6 @@ International winner among **10,000+ teams across 115 countries** for building *
 </td>
 <td width="50%" valign="top">
 
-### 🎛️ [OptiMelon](https://github.com/Athelesh-7G/optimelon)
-`Multi-Model Orchestration`
-
-**Problem** — With 10+ viable LLMs available, picking the right one per request is a cost/latency/quality optimization nobody wants to do by hand.
-
-**Built** — Provider-abstracted orchestration layer with adaptive routing across **10+ open-source LLMs** and image generation models — scored on task complexity, cost, and specialization.
-
-**Proof** — Real-time telemetry (MelonScope) tracking per-model latency, token throughput, and routing distribution · **10+ providers abstracted** behind one unified interface.
-
-`Next.js` `Node.js` `TypeScript` `Multi-provider APIs`
-
-🌐 [Live Platform](https://v0-optimelon.vercel.app/)
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
 ### 👁️ [DL-based Computer Vision Model for Human Face Authentication](https://github.com/Athelesh-7G)
 `Deep Learning · Computer Vision`
 
@@ -130,6 +112,24 @@ International winner among **10,000+ teams across 115 countries** for building *
 `YOLOv8` `FaceNet` `MobileNet V2` `ONNX` `PyTorch` `SQLite`
 
 📺 [Demo Video](https://drive.google.com/file/d/10BLdzgVAkk1-8akHvSBfK8twglOAuU-1/view?usp=sharing)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🎛️ [OptiMelon](https://github.com/Athelesh-7G/optimelon)
+`Multi-Model Orchestration`
+
+**Problem** — With 10+ viable LLMs available, picking the right one per request is a cost/latency/quality optimization nobody wants to do by hand.
+
+**Built** — Provider-abstracted orchestration layer with adaptive routing across **10+ open-source LLMs** and image generation models — scored on task complexity, cost, and specialization.
+
+**Proof** — Real-time telemetry (MelonScope) tracking per-model latency, token throughput, and routing distribution · **10+ providers abstracted** behind one unified interface.
+
+`Next.js` `Node.js` `TypeScript` `Multi-provider APIs`
+
+🌐 [Live Platform](https://v0-optimelon.vercel.app/)
 
 </td>
 <td width="50%" valign="top">
@@ -197,9 +197,7 @@ International winner among **10,000+ teams across 115 countries** for building *
 
 Engineered a deep learning computer vision system for human face verification — YOLOv8 detection, FaceNet recognition, and MobileNet V2 liveness verification via Presentation Attack Detection. Achieved **86% accuracy** on a live multi-user dataset and cut inference latency **40%** through ONNX export and batch optimization. Deployed as a real-time pipeline with zero cloud dependency.
 
----
-
-## 🎖️ Achievements
+--- ## 🎖️ Achievements
 
 - 🌟 **Young Innovator 2026** — Awarded by PSG iTech at the Annual Day Ceremony for outstanding achievement across innovation competitions, hackathons, and technical excellence
 - 🥇 **First Place** — Department Project Expo **2025 & 2026** (EEE)
