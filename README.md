@@ -61,7 +61,7 @@ International winner among **10,000+ teams across 115 countries** for building *
 
 `AWS Lambda` `Bedrock` `pgvector` `EventBridge` `Python`
 
-📺 [Demo](https://youtu.be/wEG5jTQxlJ4) · 📰 [Article](https://builder.aws.com/content/3AzrKpJbhJwEP6EZbm87vdxufgi/aideas-finalist-veloquity-the-agentic-evidence-intelligent-platform-turning-raw-feedback-into-evidence-driven-decisions)
+📺 [Demo Video](https://youtu.be/wEG5jTQxlJ4) · 📰 [AWS Builder Center Article](https://builder.aws.com/content/3AzrKpJbhJwEP6EZbm87vdxufgi/aideas-finalist-veloquity-the-agentic-evidence-intelligent-platform-turning-raw-feedback-into-evidence-driven-decisions)
 
 </td>
 <td width="50%" valign="top">
@@ -77,7 +77,7 @@ International winner among **10,000+ teams across 115 countries** for building *
 
 `Aurora Serverless v2` `pgvector` `Polly` `GitHub API` `Slack` `Next.js`
 
-📺 [Demo](https://youtu.be/yHm4YSJl2-k) · 📰 [Article](https://builder.aws.com/content/3CPrQNB11R9JUMP9XPZxUvwuUIu/magnivonic-the-organizational-intelligence-layer-for-the-enterprise-or-h0-hack-the-zero-stack-with-vercel-v0-and-aws-databases)
+📺 [Demo Video](https://youtu.be/yHm4YSJl2-k) · 📰 [AWS Builder Center Article](https://builder.aws.com/content/3CPrQNB11R9JUMP9XPZxUvwuUIu/magnivonic-the-organizational-intelligence-layer-for-the-enterprise-or-h0-hack-the-zero-stack-with-vercel-v0-and-aws-databases)
 
 </td>
 </tr>
@@ -95,7 +95,7 @@ International winner among **10,000+ teams across 115 countries** for building *
 
 `Python` `scikit-learn` `pandas` `React 18` `TypeScript` `Recharts`
 
-🌐 [Live Demo](https://llms-assemble.vercel.app)
+🌐 [Live Platform](https://llms-assemble.vercel.app)
 
 </td>
 <td width="50%" valign="top">
@@ -110,6 +110,8 @@ International winner among **10,000+ teams across 115 countries** for building *
 **Proof** — Real-time telemetry (MelonScope) tracking per-model latency, token throughput, and routing distribution · **10+ providers abstracted** behind one unified interface.
 
 `Next.js` `Node.js` `TypeScript` `Multi-provider APIs`
+
+🌐 [Live Platform](https://v0-optimelon.vercel.app/)
 
 </td>
 </tr>
