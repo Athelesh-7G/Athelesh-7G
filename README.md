@@ -84,38 +84,6 @@ International winner among **10,000+ teams across 115 countries** for building *
 <tr>
 <td width="50%" valign="top">
 
-### 📊 [LLMs Assemble](https://github.com/Athelesh-7G/llms-assemble)
-`Data Science · ML Modeling`
-
-**Problem** — Choosing an LLM means balancing capability, cost, speed, and efficiency. Nobody had quantified that trade-off space.
-
-**Built** — Full data science pipeline evaluating **40 LLMs** across 10 raw metrics and 4 composite scores. **K-Means clustering** into 4 tiers, **PCA** projection, weighted composite ranking across 6 use-case profiles — surfaced through a 9-page interactive React dashboard with live-adjustable weight sliders.
-
-**Scale** — 480 monthly snapshots · 11×11 correlation matrix · CSV export · aggregated from HuggingFace, BigCode, and Artificial Analysis leaderboards.
-
-`Python` `scikit-learn` `pandas` `React 18` `TypeScript` `Recharts`
-
-🌐 [Live Demo](https://llms-assemble.vercel.app)
-
-</td>
-<td width="50%" valign="top">
-
-### 🎛️ [OptiMelon](https://github.com/Athelesh-7G/optimelon)
-`Multi-Model Orchestration`
-
-**Problem** — With 10+ viable LLMs available, picking the right one per request is a cost/latency/quality optimization nobody wants to do by hand.
-
-**Built** — Provider-abstracted orchestration layer with adaptive routing across **10+ open-source LLMs** and image generation models — scored on task complexity, cost, and specialization.
-
-**Instrumented** — Real-time telemetry dashboard tracking per-model latency, token throughput, and routing distribution.
-
-`Next.js` `Node.js` `TypeScript` `Multi-provider APIs`
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
 ### 👁️ [DL-based Computer Vision Model for Human Face Authentication](https://github.com/Athelesh-7G)
 `Deep Learning · Computer Vision`
 
@@ -126,6 +94,40 @@ International winner among **10,000+ teams across 115 countries** for building *
 **Proof** — **18.23 hours** of fine-tuning across 50 epochs on an RTX 4050 · **~29K images** total · **86% accuracy** under live camera conditions · **40% latency reduction** via ONNX export. **Zero cloud dependency, zero external APIs.**
 
 `YOLOv8` `FaceNet` `MobileNet V2` `ONNX` `PyTorch` `SQLite`
+
+📺 [Demo Video](https://drive.google.com/file/d/10BLdzgVAkk1-8akHvSBfK8twglOAuU-1/view?usp=sharing)
+
+</td>
+<td width="50%" valign="top">
+
+### 📊 [LLMs Assemble](https://github.com/Athelesh-7G/llms-assemble)
+`Data Science · ML Modeling`
+
+**Problem** — Choosing an LLM means balancing capability, cost, speed, and efficiency. Nobody had quantified that trade-off space.
+
+**Built** — Full data science pipeline evaluating **40 LLMs** across 10 raw metrics and 4 composite scores. **K-Means clustering** into 4 tiers, **PCA** projection, weighted composite ranking across 6 use-case profiles — surfaced through a 9-page interactive React dashboard with live-adjustable weight sliders.
+
+**Proof** — 480 monthly snapshots · 11×11 correlation matrix · **40 LLMs** evaluated · K-Means + PCA pipeline · aggregated from HuggingFace, BigCode, and Artificial Analysis leaderboards.
+
+`Python` `scikit-learn` `pandas` `React 18` `TypeScript` `Recharts`
+
+🌐 [Live Demo](https://llms-assemble.vercel.app)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🎛️ [OptiMelon](https://github.com/Athelesh-7G/optimelon)
+`Multi-Model Orchestration`
+
+**Problem** — With 10+ viable LLMs available, picking the right one per request is a cost/latency/quality optimization nobody wants to do by hand.
+
+**Built** — Provider-abstracted orchestration layer with adaptive routing across **10+ open-source LLMs** and image generation models — scored on task complexity, cost, and specialization.
+
+**Proof** — Real-time telemetry (MelonScope) tracking per-model latency, token throughput, and routing distribution · **10+ providers abstracted** behind one unified interface.
+
+`Next.js` `Node.js` `TypeScript` `Multi-provider APIs`
 
 </td>
 <td width="50%" valign="top">
@@ -140,6 +142,8 @@ International winner among **10,000+ teams across 115 countries** for building *
 **Closed the loop** — Local alerts (buzzer, LED, LCD, **automatic relay shutdown**) plus a cloud dashboard. It doesn't just predict the fault — it acts on it.
 
 `Python` `scikit-learn` `MQTT` `Signal Processing`
+
+📺 [Demo Video](https://drive.google.com/file/d/17yWck0tBZd8fyq55amqna3svdbn20mZR/view?usp=sharing)
 
 </td>
 </tr>
