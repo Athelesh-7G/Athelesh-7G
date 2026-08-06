@@ -38,9 +38,9 @@ I care about building software that works reliably, scales predictably, and solv
 ## 🏆 International Recognition
 
 🥇 **AWS 10,000 AIdeas — Asia Pacific & Japan (APJC) Regional Champion 2026**
-International winner among **10,000+ teams across 115 countries** for building **Veloquity**.
+; International winner among **10,000+ teams across 115 countries** for building **Veloquity**.
 
-📰 **Featured in Business Today** — joint media interaction with **Jeff Barr** *(VP & Chief Evangelist, AWS)*, conducted by Neetu Chandra *(Senior Editor, Business Today)*
+📰 **Featured in Business Today** — joint media interaction with **Jeff Barr** *(Vice President & Chief Evangelist, AWS)*, conducted by Neetu Chandra *(Senior Editor, Business Today)*
 
 ---
 
