@@ -50,7 +50,7 @@ International winner among **10,000+ teams across 115 countries** for building *
 <tr>
 <td width="50%" valign="top">
 
-### 🧠 [Veloquity](https://github.com/Athelesh-7G/Veloquity-showcase)
+### 🧠 [Veloquity](https://github.com/Athelesh-7G/Veloquity)
 `AWS APJC Regional Champion`
 
 **Problem** — Enterprise product teams are buried in massive, fragmented feedback across reviews, tickets, and surveys — with no traceable path from raw signal to an explainable, evidence-backed decision.
