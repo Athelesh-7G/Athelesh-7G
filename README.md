@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:203A43,100:2C5364&height=180&section=header&text=Athelesh%20B&fontSize=60&fontColor=ffffff&fontAlignY=35&desc=Software%20Engineer%20%7C%20AWS%20APJC%20Regional%20Champion&descSize=18&descAlignY=58" width="100%"/>
 
-**C++ &nbsp;·&nbsp; Verification & Testing &nbsp;·&nbsp; Embedded & Edge AI &nbsp;·&nbsp; AWS & Agentic AI**
+**Agentic AI & Cloud &nbsp;·&nbsp; C++ & Verification &nbsp;·&nbsp; Embedded & Edge AI &nbsp;·&nbsp; Full-Stack Systems**
 
 *Systems that behave predictably, with tests that prove it.*
 
@@ -29,7 +29,7 @@
 
 Final-year **Electrical & Electronics Engineering** student at **PSG iTech, Coimbatore** — building production-ready software systems that solve real problems.
 
-I write **C++** for algorithms, data structures and **verification tooling**: independent reference solvers, differential, property-based and mutation testing, and sanitizer builds. I also build **embedded and signal-processing systems** (Raspberry Pi, MQTT, FFT), **distributed, event-driven architectures** on AWS, **LLM and multi-agent AI platforms**, **deep learning pipelines** for computer vision, and **full-stack applications** that people actually use. Every build is grounded in **operating systems, databases, and system design fundamentals**.
+I build **distributed, event-driven architectures** on AWS, **LLM and multi-agent AI platforms**, **deep learning pipelines** for computer vision, **embedded and signal-processing systems** (Raspberry Pi, MQTT, FFT), and **full-stack applications** that people actually use. I write **C++** for algorithms, data structures and **verification tooling**: independent reference solvers, differential, property-based and mutation testing, and sanitizer builds. Every build is grounded in **operating systems, databases, and system design fundamentals**.
 
 One principle holds across all of it: **systems should behave predictably under real conditions.** Deterministic logic where correctness matters. Measured latency. Traceable decisions. Tests that prove the thing works.
 
@@ -48,24 +48,6 @@ I care about building software that works reliably, scales predictably, and solv
 ## 🚀 What I've Built
 
 <table>
-<tr>
-<td colspan="2" valign="top">
-
-### 🧪 [Dijkstra Visualizer + C++17 Verification Framework](https://github.com/Athelesh-7G/CBE-ZONE-NODES)
-`Verification · Testing · C++17`
-
-**Problem** — A shortest-path implementation is only useful if you can trust it, and a test written by the same person with the same assumptions shares the same blind spots.
-
-**Built** — A Next.js/TypeScript Dijkstra visualizer on a 16-node, 28-edge Coimbatore road graph, checked from the outside by a **C++17 verification framework**: three independent solvers (Dijkstra, Bellman–Ford, Floyd–Warshall) compared by **differential testing**, seeded **property-based tests** over 9 graph shapes, **mutation testing**, a **delta-debugging test-case reducer**, a regression corpus, **ASan/UBSan** builds, a **libFuzzer** target, a small custom test framework, CMake presets, and GitHub Actions on **gcc and clang**.
-
-**Proof** — All **240 ordered pairs** and **150 random graphs** match across the oracles · **12/12 injected mutants** killed (against 12 bugs I wrote) · found no bugs in the TypeScript, and the README says so. A benchmark also disproved my own performance claim (binary heap ≈14 ms vs sorted array ≈3.7 s at 100K nodes), and I corrected the README. It verifies a shortest-path implementation, not a compiler; the limits are documented.
-
-`C++17` `CMake` `GitHub Actions` `ASan/UBSan` `TypeScript` `Next.js`
-
-🌐 [Live Demo](https://cbe-zone-nodes.vercel.app) · 📂 [Verification README](https://github.com/Athelesh-7G/CBE-ZONE-NODES/blob/main/verification/README.md)
-
-</td>
-</tr>
 <tr>
 <td width="50%" valign="top">
 
@@ -97,6 +79,24 @@ I care about building software that works reliably, scales predictably, and solv
 `Aurora Serverless v2` `pgvector` `Polly` `GitHub API` `Slack` `Next.js`
 
 📺 [Demo Video](https://youtu.be/yHm4YSJl2-k) · 📰 [AWS Builder Center Article](https://builder.aws.com/content/3CPrQNB11R9JUMP9XPZxUvwuUIu/magnivonic-the-organizational-intelligence-layer-for-the-enterprise-or-h0-hack-the-zero-stack-with-vercel-v0-and-aws-databases)
+
+</td>
+</tr>
+<tr>
+<td colspan="2" valign="top">
+
+### 🧪 [Dijkstra Visualizer + C++17 Verification Framework](https://github.com/Athelesh-7G/CBE-ZONE-NODES)
+`Verification · Testing · C++17`
+
+**Problem** — A shortest-path implementation is only useful if you can trust it, and a test written by the same person with the same assumptions shares the same blind spots.
+
+**Built** — A Next.js/TypeScript Dijkstra visualizer on a 16-node, 28-edge Coimbatore road graph, checked from the outside by a **C++17 verification framework**: three independent solvers (Dijkstra, Bellman–Ford, Floyd–Warshall) compared by **differential testing**, seeded **property-based tests** over 9 graph shapes, **mutation testing**, a **delta-debugging test-case reducer**, a regression corpus, **ASan/UBSan** builds, a **libFuzzer** target, a small custom test framework, CMake presets, and GitHub Actions on **gcc and clang**.
+
+**Proof** — All **240 ordered pairs** and **150 random graphs** match across the oracles · **12/12 injected mutants** killed (against 12 bugs I wrote) · found no bugs in the TypeScript, and the README says so. A benchmark also disproved my own performance claim (binary heap ≈14 ms vs sorted array ≈3.7 s at 100K nodes), and I corrected the README. It verifies a shortest-path implementation, not a compiler; the limits are documented.
+
+`C++17` `CMake` `GitHub Actions` `ASan/UBSan` `TypeScript` `Next.js`
+
+🌐 [Live Demo](https://cbe-zone-nodes.vercel.app) · 📂 [Verification README](https://github.com/Athelesh-7G/CBE-ZONE-NODES/blob/main/verification/README.md)
 
 </td>
 </tr>
