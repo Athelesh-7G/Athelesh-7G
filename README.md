@@ -2,7 +2,9 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:203A43,100:2C5364&height=180&section=header&text=Athelesh%20B&fontSize=60&fontColor=ffffff&fontAlignY=35&desc=Software%20Engineer%20%7C%20AWS%20APJC%20Regional%20Champion&descSize=18&descAlignY=58" width="100%"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1200&color=4FC3F7&center=true&vCenter=true&width=650&lines=I+build+software+that+ships.;Distributed+Systems+%C2%B7+Agentic+AI+%C2%B7+Deep+Learning;C%2B%2B+%C2%B7+Python+%C2%B7+TypeScript+%C2%B7+AWS" alt="Typing SVG" />
+**C++ &nbsp;·&nbsp; Verification & Testing &nbsp;·&nbsp; Embedded & Edge AI &nbsp;·&nbsp; AWS & Agentic AI**
+
+*Systems that behave predictably, with tests that prove it.*
 
 <br/>
 
@@ -27,7 +29,7 @@
 
 Final-year **Electrical & Electronics Engineering** student at **PSG iTech, Coimbatore** — building production-ready software systems that solve real problems.
 
-I work across the stack: **distributed, event-driven architectures** on AWS, **Large Language Models** and **multi-agent AI platforms**, **deep learning pipelines** for computer vision, **data science and ML modeling**, and **full-stack applications** that people actually use. I write **C++** for algorithms and data structures, and ground every build in **operating systems, databases, and system design fundamentals**.
+I write **C++** for algorithms, data structures and **verification tooling**: independent reference solvers, differential, property-based and mutation testing, and sanitizer builds. I also build **embedded and signal-processing systems** (Raspberry Pi, MQTT, FFT), **distributed, event-driven architectures** on AWS, **LLM and multi-agent AI platforms**, **deep learning pipelines** for computer vision, and **full-stack applications** that people actually use. Every build is grounded in **operating systems, databases, and system design fundamentals**.
 
 One principle holds across all of it: **systems should behave predictably under real conditions.** Deterministic logic where correctness matters. Measured latency. Traceable decisions. Tests that prove the thing works.
 
@@ -37,8 +39,7 @@ I care about building software that works reliably, scales predictably, and solv
 
 ## 🏆 International Recognition
 
-🥇 **AWS 10,000 AIdeas Global Competition 2026 — Asia Pacific & Japan (APJC) Regional Champion**; 
-International winner among **10,000+ teams across 115 countries** for building **Veloquity**.
+🥇 **AWS 10,000 AIdeas Global Competition 2026 — Asia Pacific & Japan (APJC) Regional Champion** in an international competition among **10,000+ teams across 115 countries**, for building **Veloquity**.
 
 📰 **Featured in Business Today** — joint media interaction with **Jeff Barr** *(Vice President & Chief Evangelist, AWS)*, conducted by Neetu Chandra *(Senior Editor, Business Today)*
 
@@ -47,6 +48,24 @@ International winner among **10,000+ teams across 115 countries** for building *
 ## 🚀 What I've Built
 
 <table>
+<tr>
+<td colspan="2" valign="top">
+
+### 🧪 [Dijkstra Visualizer + C++17 Verification Framework](https://github.com/Athelesh-7G/CBE-ZONE-NODES)
+`Verification · Testing · C++17`
+
+**Problem** — A shortest-path implementation is only useful if you can trust it, and a test written by the same person with the same assumptions shares the same blind spots.
+
+**Built** — A Next.js/TypeScript Dijkstra visualizer on a 16-node, 28-edge Coimbatore road graph, checked from the outside by a **C++17 verification framework**: three independent solvers (Dijkstra, Bellman–Ford, Floyd–Warshall) compared by **differential testing**, seeded **property-based tests** over 9 graph shapes, **mutation testing**, a **delta-debugging test-case reducer**, a regression corpus, **ASan/UBSan** builds, a **libFuzzer** target, a small custom test framework, CMake presets, and GitHub Actions on **gcc and clang**.
+
+**Proof** — All **240 ordered pairs** and **150 random graphs** match across the oracles · **12/12 injected mutants** killed (against 12 bugs I wrote) · found no bugs in the TypeScript, and the README says so. A benchmark also disproved my own performance claim (binary heap ≈14 ms vs sorted array ≈3.7 s at 100K nodes), and I corrected the README. It verifies a shortest-path implementation, not a compiler; the limits are documented.
+
+`C++17` `CMake` `GitHub Actions` `ASan/UBSan` `TypeScript` `Next.js`
+
+🌐 [Live Demo](https://cbe-zone-nodes.vercel.app) · 📂 [Verification README](https://github.com/Athelesh-7G/CBE-ZONE-NODES/blob/main/verification/README.md)
+
+</td>
+</tr>
 <tr>
 <td width="50%" valign="top">
 
@@ -71,7 +90,7 @@ International winner among **10,000+ teams across 115 countries** for building *
 
 **Problem** — Finance sees revenue. Ops sees delivery. Security sees risk. Nobody sees the whole board until it's too late for the enterprises.
 
-**Built** — Revenue, Customer, Operations, and Security agents process live signals in parallel → Chief of Staff coordinator → General Manager orchestrator, delivering a unified organizational intelligence picture in real time. All scoring **deterministic in code** — the LLM narrates, never invents.
+**Built** — Revenue, Customer, Operations, and Security agents process live signals in parallel → Chief of Staff coordinator → General Manager orchestrator, delivering a unified organizational intelligence picture in real time. Risk scores are **auditable formulas in code** (security and operations fully deterministic); the LLM narrates and classifies, it doesn't invent the numbers.
 
 **Proof** — 22-incident organizational memory · Real **GitHub API** + **Slack** signals · **Amazon Polly** voice output · Deployed Next.js frontend on Vercel.
 
@@ -100,7 +119,7 @@ International winner among **10,000+ teams across 115 countries** for building *
 </td>
 <td width="50%" valign="top">
 
-### 👁️ [DL-based Computer Vision Model for Human Face Authentication](https://github.com/Athelesh-7G)
+### 👁️ DL-based Computer Vision Model for Human Face Authentication
 `Deep Learning · Computer Vision`
 
 **Problem** — Face authentication is only as strong as its weakest link: a printed photo or a replayed video should never pass as a live human.
@@ -134,7 +153,7 @@ International winner among **10,000+ teams across 115 countries** for building *
 </td>
 <td width="50%" valign="top">
 
-### 🔌 [Edge AI Predictive Maintenance](https://github.com/Athelesh-7G/edge-ai-predictive-maintenance)
+### 🔌 Edge AI Predictive Maintenance
 `Edge ML · Signal Processing`
 
 **Problem** — Industrial motors fail without warning, and cloud round-trips are too slow to act before damage is done.
@@ -143,7 +162,7 @@ International winner among **10,000+ teams across 115 countries** for building *
 
 **Closed the loop** — Local alerts (buzzer, LED, LCD, **automatic relay shutdown**) plus a cloud dashboard. It doesn't just predict the fault — it acts on it.
 
-`Python` `scikit-learn` `MQTT` `Signal Processing`
+`Raspberry Pi` `Python` `scikit-learn` `MQTT` `Signal Processing`
 
 📺 [Demo Video](https://drive.google.com/file/d/17yWck0tBZd8fyq55amqna3svdbn20mZR/view?usp=sharing)
 
@@ -183,7 +202,11 @@ International winner among **10,000+ teams across 115 countries** for building *
 
 <br/>
 
-**Core CS** — Operating Systems · Database Management Systems · Object-Oriented Programming
+**Core CS** — Data Structures & Algorithms · Operating Systems · Database Management Systems · Object-Oriented Programming
+
+**Testing & Verification** — Differential Testing · Property-Based Testing · Mutation Testing · Fuzzing (libFuzzer) · ASan/UBSan · GitHub Actions CI · CMake
+
+**Embedded & Signal Processing** — Raspberry Pi · MQTT · IoT Sensors · FFT / Feature Engineering · Edge Inference
 
 **Cloud (AWS)** — Lambda · Bedrock · S3 · RDS · Aurora Serverless · EventBridge · IAM · Serverless & Event-Driven Architecture
 
