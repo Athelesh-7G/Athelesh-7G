@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:203A43,100:2C5364&height=180&section=header&text=Athelesh%20B&fontSize=60&fontColor=ffffff&fontAlignY=35&desc=Software%20Engineer%20%7C%20AWS%20APJC%20Regional%20Champion&descSize=18&descAlignY=58" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:203A43,100:2C5364&height=180&section=header&text=Athelesh%20B&fontSize=60&fontColor=ffffff&fontAlignY=35&desc=Software%20Engineer%20%7C%20AWS%20Asia Pacific Japan (APJC)%20Regional%20Champion&descSize=18&descAlignY=58" width="100%"/>
 
 **Agentic AI & Cloud &nbsp;·&nbsp; C++ & Verification &nbsp;·&nbsp; Embedded & Edge AI &nbsp;·&nbsp; Full-Stack Systems**
 
